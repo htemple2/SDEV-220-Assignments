@@ -38,10 +38,11 @@ class Automobile(Vehicle):
                 break
             else:
                 print("Invalid input. Please enter 'solid' or 'sunroof'.")
-        auto = Automobile(vehicle_type, year, make, model, doors, roof)
-        return auto
+        user_input = Automobile(vehicle_type, year, make, model, doors, roof)
+        return user_input
 
 
 if __name__ == "__main__":
     user_automobile = Automobile.user_input()
+    print("\nVehicle Information:")
     user_automobile.display_info()
