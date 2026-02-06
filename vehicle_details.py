@@ -1,3 +1,15 @@
+"""
+Student Name: Heidi Temple
+File Name: vehicle_details.py
+Description: This program defines a Vehicle class and an Automobile subclass. The Automobile class has attributes for the year, make, model, number of doors, and type of roof. The program prompts the user to input these details and then displays the information about the automobile. 
+Variables:  vehicle_type: A string representing the type of vehicle (e.g., "car", "truck").
+            year: A string representing the year of the automobile.
+            make: A string representing the make of the automobile (e.g., "Toyota").
+            model: A string representing the model of the automobile (e.g., "Camry").
+            doors: A string representing the number of doors (either "2" or "4").
+            roof: A string representing the type of roof (either "solid" or "sunroof").
+"""
+
 class Vehicle:
     def __init__(self, vehicle_type):
         self.vehicle_type = vehicle_type
